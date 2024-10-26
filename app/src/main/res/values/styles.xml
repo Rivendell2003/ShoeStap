@@ -1,0 +1,10 @@
+<resources>
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@drawable/search_view_background</item>
+
+        <item name="android:queryHint">@string/search_hint</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+</resources>
