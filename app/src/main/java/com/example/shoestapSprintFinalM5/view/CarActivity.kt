@@ -45,13 +45,13 @@ class CartActivity : AppCompatActivity(), CartView {
         emptyCartMessage = findViewById(R.id.empty_cart_message)
 
         findViewById<Button>(R.id.back_button).setOnClickListener {
-            finish() // Regresa a la actividad anterior
+            finish() // se va alaa actividad anterior
         }
 
-        // Configura el botón "Pagar"
+        // la config para el botón "Pagar"
         val payButton: Button = findViewById(R.id.pay_button)
         payButton.setOnClickListener {
-            Toast.makeText(this, "Se implementará en el futuro", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Se implementará en el futuro...", Toast.LENGTH_SHORT).show()
         }
     }
 

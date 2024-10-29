@@ -15,6 +15,7 @@ import com.example.shoestapSprintFinalM5.model.Item
 import com.example.shoestapSprintFinalM5.model.ShoeRepository
 import com.example.shoestapSprintFinalM5.presenter.CartPresenter
 
+@Suppress("DEPRECATION")
 class CartFragment(private val shoeRepository: ShoeRepository) : Fragment(), CartView {
 
     private lateinit var recyclerView: RecyclerView

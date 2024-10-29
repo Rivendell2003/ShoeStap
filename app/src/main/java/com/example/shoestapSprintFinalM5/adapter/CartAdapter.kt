@@ -1,5 +1,6 @@
 package com.example.shoestapSprintFinalM5.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -41,6 +42,7 @@ class CartAdapter(
 
     override fun getItemCount(): Int = items.size
 
+    @SuppressLint("NotifyDataSetChanged")
     fun updateItems(newItems: List<Item>) {
         items = newItems
         notifyDataSetChanged()

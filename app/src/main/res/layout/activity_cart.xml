@@ -38,7 +38,7 @@
 
     <TextView
         android:id="@+id/total_price_text_view"
-        android:layout_width="wrap_content"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="16dp"
@@ -72,4 +72,12 @@
         android:visibility="gone"
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorOnPrimary" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/biz_udpgothic"
+        android:text="@string/by_jonny_v_a2" />
 </LinearLayout>
